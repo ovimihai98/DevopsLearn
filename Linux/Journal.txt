@@ -1,0 +1,15 @@
+Today I started the Linux part of the Devops course.
+I knew a little bit of Linux before but it is nice to recap some basic commands that will help me in the future.
+Some things to remember from this lesson:
+- /etc is the configuration direcotry
+- files from /tmp are deleted after vm shutdown
+- VIM editor has 3 modes: command mode, insert mode, extended commnad mode.
+- there are several types of files in linux: Directories (d) Links (l) Special files (c) Sockets (s) Pipes (p) Regular files (-)
+
+Some commands that I did not knew as well:
+ln -s [option] [shortcut name] - creates shortcuts
+cut -d -f filename (d=delimiter, f=field) returns the column of file
+sed 's/searchfor/replacewith/g' filename - search a word in the file and replace it with the word required to be in the output
+find - used to find the files or directory's path.
+
+This is the first part of Linux, more update next day.
