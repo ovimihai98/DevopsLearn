@@ -1,3 +1,5 @@
+# Journal
+
 Today I started the Linux part of the Devops course.
 I knew a little bit of Linux before but it is nice to recap some basic commands that will help me in the future.
 Some things to remember from this lesson:
