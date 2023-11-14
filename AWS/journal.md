@@ -4,7 +4,7 @@ First I have deployed EC2 instances. I have deployed Ubuntu/Centos9/AmazonLinux 
 Good to know: Security groups are statefull, analyze traffic both inbound and outbound.
 EC2 instances have both a private and a public IP, so I have deployed a static website, opened port 80 for http on SG for my IP and I could see the website on the browser.
 public IPs can change every time EC2 instance is rebooting, for this a variant is to allocate a static IP for a EC2 instance such that it will always have that IP assigned. But this is not a good option and a better one is to use a Load Balancer.
-Yoi can also open aditional volumes which are additional virtual hard drives assigned to a EC2.
+You can also open aditional volumes which are additional virtual hard drives assigned to a EC2.
 I have also used AWS CLI to deploy an EC2 using a dedicated IAM user.
 EBS or Elastic Block Storage is a block-storage designed for EC2.
 I ahve also deployed an Elastic Load Balancer which is used to distribute incoming traffic accross multiple targets, in our case was EC2 instances. There are more types of ELBs but I have deployed the Application Load Balancer that routes traffic based on the application level of the OSI model.
