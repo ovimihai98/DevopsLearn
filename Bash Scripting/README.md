@@ -1,3 +1,5 @@
+# Journal
+
 Today I have learned more about Bash scripting.
 This was also a good way to learn more VIM commands.
 
