@@ -1,3 +1,5 @@
+# Journal
+
 Today I have deployed social media mock application on my PC both manually setup and automatic setup.
 I have used the repository provided by the instructor from the DevOps course.
 
