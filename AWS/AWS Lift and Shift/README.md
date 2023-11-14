@@ -38,7 +38,8 @@ I also created Route53 Records for ease of use of backend stack by Tomcat servic
 I have cloed the gihtub repository and build the artifact on my local machine using maven (we will learn about it later).
 After the artifact was created I have created a S3 bucket but from aws cli so I needed a s3-admin account.
 
-![s3-admin](https://github.com/ovimihai98/DevopsLearn/assets/138617785/ef107c69-8624-42eb-8016-3492d892308b)
+![s3-admin](https://github.com/ovimihai98/DevopsLearn/assets/138617785/31e0abb9-d5ea-4527-b401-2aa329fd6de8)
+
 
 Then I created a S3 bucket to host the artifact WAR file in there
 
@@ -46,13 +47,15 @@ Then I created a S3 bucket to host the artifact WAR file in there
 
 After that I have created a role and attached it to the tomcat EC2 instance so that the EC2 instance can have access to the bucket
 
-![role-for-ec2](https://github.com/ovimihai98/DevopsLearn/assets/138617785/8926582e-cf2f-4a71-b1e4-234b6a1e25c8)
+![role-for-ec2](https://github.com/ovimihai98/DevopsLearn/assets/138617785/bf771410-5fb3-46a1-bdfd-abdd1165a9cb)
+
 
 ## Load Balancer and DNS
 
 For deploying a ALB I have first created a target group and set the Tomcat EC2 instance as pending in it.
 
-![target-group](https://github.com/ovimihai98/DevopsLearn/assets/138617785/c220b381-1db8-480d-8804-b601b4a9cd67)
+![target-group](https://github.com/ovimihai98/DevopsLearn/assets/138617785/37b29683-598d-4ee8-9954-e35df664de45)
+
 
 I have then deployed the ALB. I also purchased the domain from godaddy and created a certificate from AWS Certificate Manager and linked it to the LB.
 
