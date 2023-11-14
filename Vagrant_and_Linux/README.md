@@ -1,3 +1,5 @@
+# Jorunal
+
 This time I dive deeper into Vagrant.
 I have deployed both manually and automatically 2 types of servers:
 -  first one was a static website on a centos7 vm, preaty straight on there, I jsut downloaded httpd, wget, unzip and vim and downloaded a template from tooplate.com.
