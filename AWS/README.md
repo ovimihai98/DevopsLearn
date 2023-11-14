@@ -1,4 +1,6 @@
-I have learned this past week more about AWS cloud.
+# Journal
+
+  I have learned this past week more about AWS cloud.
 I already have the Cloud Practicioner Certifcation so I know my ways trough AWS.
 First I have deployed EC2 instances. I have deployed Ubuntu/Centos9/AmazonLinux instances, I have created security groups that are like firewalls for EC2s and also created ssh keypairs to login to those vms. For the security groups I have set inbound rules to open the ssh port.
 Good to know: Security groups are statefull, analyze traffic both inbound and outbound.
