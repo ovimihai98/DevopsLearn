@@ -1,3 +1,5 @@
+# Journal
+
 So in the first day I started out by deploying VMs both manually and automatically.
 For manual deployment I have used Oracle VirtualBox and the deployment is preatty easy and self explenatory.
 
